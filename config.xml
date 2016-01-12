@@ -36,6 +36,7 @@
     <content src="index.html" />
 
     <!-- Preferences for iOS -->
+    <preference name="fullscreen"       value="true" />
     <preference name="AllowInlineMediaPlayback" value="false" />
     <preference name="AutoHideSplashScreen" value="true" />
     <preference name="BackupWebStorage" value="cloud" />
@@ -63,8 +64,7 @@
     <gap:splash src="res/screen/ios/screen-ipad-landscape.png"     gap:platform="ios"     width="1024" height="768" />
 
 
-    <preference name="fullscreen"       value="false" />
-
+    
 
 
     <feature name="Geolocation">
